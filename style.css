@@ -63,3 +63,22 @@ h4 {
     padding: 10px;
     margin: auto;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4EA5D9;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #DDDBF1;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #01306b;
+}
