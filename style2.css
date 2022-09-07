@@ -17,6 +17,23 @@ a.externo::after {
     content: '\00A0\1F517';
 }
 
+header {
+    background-color: #07070A;
+    color: white;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px #4EA5D9;
+}
+
+header h1 {
+    font-family: font2p;
+    text-align: center;
+    font-size: 2.3em;
+}
+
 main {
     
     background-color: #DDDBF1;
@@ -27,7 +44,7 @@ main {
     margin: auto;
 }
 
-h1 {
+main h1 {
     font-family: font2p;
     color: #07070A;
     text-align: center;
@@ -35,14 +52,14 @@ h1 {
     font-size: 2.3em;
 }
 
-h2 {
+main h2 {
     font-family: font2p;
     color: #07070A;
     text-shadow: 1px 1px 0px #4EA5D9;
     font-size: 1.5em;
 }
 
-p {
+main p {
     font-family: font2p;
     color: #07070A;
     text-align: justify;
@@ -50,27 +67,35 @@ p {
     text-indent: 37px;
 }
 
-li {
+main li {
     font-family: font2p;
     color: #07070A;
     font-size: 1.1em;
 }
 
-a {
+main a {
     text-decoration: none;
 }
 
-a:visited {
+main a:visited {
     color: #4287db;
     font-weight: bold;
 }
 
-a:hover {
+main a:hover {
     color: #045bc5;
     font-weight: bolder;
     text-decoration: underline;
 }
 
-a:active {
+main a:active {
     color: #0c61c9;
+}
+
+footer {
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 17.6px;
 }
