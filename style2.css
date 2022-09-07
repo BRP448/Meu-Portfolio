@@ -13,6 +13,10 @@ body {
     background-image: linear-gradient(to right, #004BA8, #001125);
 }
 
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
 main {
     
     background-color: #DDDBF1;
