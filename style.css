@@ -15,7 +15,9 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #01306b, #001125);
+    /*background-image: linear-gradient(to right, #01306b, #001125);*/
+    background: black url('imagens/madeira.jpg') center top no-repeat fixed;
+    background-size: cover;
 }
 
 a.externo::after {
@@ -25,7 +27,7 @@ a.externo::after {
 main {
     background-image: linear-gradient(to right, rgb(34, 34, 34), #07070A);
     border-radius: 10px;
-    box-shadow: 5px 5px 15px #4EA5D9;
+    box-shadow: 5px 5px 15px #00000073;
     max-width: 600px;
     padding: 10px;
     margin: auto;
